@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.actor }}/nginx-hello-world:latest
+  IMAGE_NAME: ${{ github.actor }}/nginx-hello-world
 
 jobs:
   publish:
