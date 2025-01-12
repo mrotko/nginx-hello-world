@@ -1,0 +1,6 @@
+services:
+  nginx:
+    image: nginx:latest
+    container_name: 'hello-world-nginx'
+    ports:
+      - 8081:80
