@@ -1,6 +1,6 @@
 services:
   nginx:
-    image: nginx:latest
+    image: ghcr.io/mrotko/nginx-hello-world:master
     container_name: 'hello-world-nginx'
     ports:
       - 8081:80
