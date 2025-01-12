@@ -60,7 +60,7 @@ jobs:
 
     steps:
       - name: test secret
-        run: echo secrets.TEST_SECRET
+        run: echo ${{ secrets.TEST_SECRET }}
       - name: install ssh keys
         run: |
           install -m 600 -D /dev/null ~/.ssh/id_rsa
